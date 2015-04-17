@@ -1,0 +1,29 @@
+html{height:100%;}
+body {
+
+        margin: 0px;
+        padding: 0px;
+      
+
+overflow:hidden;}
+
+
+.drop {
+  background:#10C5A4;
+	width:3px;
+	height:15px;
+	position: absolute;
+ 
+	bottom:200px;
+	-webkit-animation: fall .99s linear infinite;
+  -moz-animation: fall .99s linear infinite;
+  
+}
+
+/* animate the drops*/
+@-webkit-keyframes fall {
+	to {margin-top:900px;}
+}
+@-moz-keyframes fall {
+	to {margin-top:900px;}
+}
